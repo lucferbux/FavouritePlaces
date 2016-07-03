@@ -9,9 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBAction func findOutMoreAction(sender: AnyObject) {
+        performSegueWithIdentifier("infoSegue", sender: nil)
+    }
+    
+    @IBOutlet weak var findOutMoreButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        findOutMoreButton.layer.cornerRadius = 5.0
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

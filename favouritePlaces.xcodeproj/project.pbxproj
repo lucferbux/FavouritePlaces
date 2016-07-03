@@ -405,6 +405,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucasIndustries.favouritePlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -416,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucasIndustries.favouritePlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,6 +486,7 @@
 				3761F85A1CA6A0A300731379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3761F85B1CA6A0A300731379 /* Build configuration list for PBXNativeTarget "favouritePlacesTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +495,7 @@
 				3761F85D1CA6A0A300731379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3761F85E1CA6A0A300731379 /* Build configuration list for PBXNativeTarget "favouritePlacesUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +504,7 @@
 				3761F8601CA6A0A300731379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
